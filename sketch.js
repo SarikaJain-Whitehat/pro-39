@@ -32,7 +32,7 @@ function preload(){
 }
 
 function setup() {
-  createCanvas(600, 200);
+  createCanvas(displayWidth -50, displayHeight - 100);
   
   trex = createSprite(50,180,20,50);
   
@@ -69,8 +69,8 @@ function setup() {
 function draw() {
   //trex.debug = true;
  // camera.x = trex.x;
-//camera.position.x = displayWidth/2;
-//camera.position.y = cars[index-1].y;}
+camera.position.x = displayWidth/2;
+camera.position.y = displayHeight/4}
 //gameOver.position.x = restart.position.x = camera.x
   
   background(255);
