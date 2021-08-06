@@ -69,9 +69,9 @@ function setup() {
 function draw() {
   //trex.debug = true;
  // camera.x = trex.x;
-camera.position.x = displayWidth/2;
-camera.position.y = cars[index-1].y;}
-gameOver.position.x = restart.position.x = camera.x
+//camera.position.x = displayWidth/2;
+//camera.position.y = cars[index-1].y;}
+//gameOver.position.x = restart.position.x = camera.x
   
   background(255);
   text("Score: "+ score, 500,50);
